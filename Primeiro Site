@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sobre o computador</title>
+
+<style>
+   table, th, td {border: 1px solid black;}
+   table{width:60%}
+   form{width:15%}
+   body{background-color: rgb(127, 214, 255);}
+   textarea{background-color: rgb(185, 209, 209);}
+</style>
+</head>
+<body>
+<h1>Componentes de um computador</h1>
+<ul>
+    <li>Processador;</li>
+    <li>Placa Mãe;</li>
+    <li>Placa de video;</li>
+    <li>Memória Ram;</li>
+    <li>Armazenamento(hd/ssd);</li>
+    <li>Fonte de alimentação;</li>
+    <li>Gabinete.</li>
+</ul>
+<h2>Periféricos necessários</h2>
+<ul>
+    <li>Monitor;</li>
+    <li>Mouse;</li>
+    <li>Teclado;</li>
+    <li>Fone de ouvido/Headset/Caixa de som.</li>
+</ul>
+<!--Lista não ordenada de componentes-->
+<h1>Como montar um computador</h1>
+<ol type="I">
+    <li>Abra o Gabinete de todos os lados para a melhor organização;</li>
+    <li>Coloque a fonte de alimentação no gabinete;</li>
+    <li>Pegue o processador e encaixe na placa mãe;</li>
+    <li>Encaixe o cooler do processador em cima dele, mas antes coloque a pasta térmica em cima do processador, uma pequena gota;</li>
+    <li>Parase a placa mãe já com o processador dentro do gabinete em seu devido lugar;</li>
+    <li>Pegue os cabos da fonte e ligue na placa mãe em seus devidos lugares;</li>
+    <li>Ligue os cabos <strong>POWER</strong> do gabinete e os cabos <b>USB</b> na placa mãe;</li>
+    <li>Pegue com cuidado a placa de vídeo, abra o slot PCI na placa mãe e encaixe a placa de vídeo com cuidado;</li>
+    <li>Ligue os cabos de alimentação da fonte na placa de vídeo;</li>
+    <li>Coloque seu armazenamento e ligue ele na fonte e na placa mãe pelo cabo <b>SATA</b>;</li>
+    <li>Ligue o sabo <b>HDMI</b> da placa de vídeo no monitor e a fonte na tomada;</li>
+    <li>Teste ligar seu computador e não se esqueça de conectar o mouse e teclado.</li>
+</ol>
+<!--Lista ordenada com o passo a passo nem um pouco esecificado de como montar seu computador-->
+<br>
+<h1>Tabela de componentes e suas compatiblidades em um computador</h1>
+<h2>Processadores Intel, de 9° a 12° geração</h2>
+<table>
+    <tr>
+        <th>Processador</th>
+        <th>Placa mãe compatível</th>
+    </tr>
+    <tr>
+        <th>i3-9100</th>
+        <th rowspan="4">H-310, B-360, Z390</th>
+    </tr>
+    <tr>
+        <th>i5-9400</th>
+    </tr>
+    <tr>
+        <th>i7-9700</th>
+    </tr>
+    <tr>
+        <th>i9-9900</th>
+    </tr>
+    <tr>
+        <th>i3-10100</th>
+        <th rowspan="4">H-410, B460, Z-490</th>
+    </tr>
+    <tr>
+        <th>i5-10400</th>
+    </tr>
+    <tr>
+        <th>i7-10700</th>
+    </tr>
+    <tr>
+        <th>i9-10900</th>
+    </tr>
+    <tr>
+        <th>i5-11400</th>
+        <th rowspan="3">H-510, B-560, Z-590</th>
+    </tr>
+    <tr>
+        <th>i7-11700</th>
+    </tr>
+    <tr>
+        <th>i9-11900</th>
+    </tr>
+    <tr>
+        <th>i3-12100</th>
+        <th rowspan="4">H-610, B-660, Z-690</th>
+    </tr>
+    <tr>
+        <th>i5-12400</th>
+    </tr>
+    <tr>
+        <th>i7-12700</th>
+    </tr>
+    <tr>
+        <th>i9-12900</th>
+    </tr>
+</table>
+<h2>Processadores AMD Ryzen, de 3° a 5° geração</h2>
+<table>
+    <tr>
+        <th>Processador</th>
+        <th>Placa mãe compatível</th>
+    </tr>
+    <tr>
+        <th>Ryzen 3 3300x</th>
+        <th rowspan="7">A-320, A-520, B-350, B-450, B-550, X-370, X-470, X-570</th>
+    </tr>
+    <tr>
+        <th>Ryzen 5 3600</th>
+    </tr>
+    <tr>
+        <th>Ryzen 5 5600x</th>
+    </tr>
+    <tr>
+        <th>Ryzen 7 3700x</th>
+    </tr>
+    <tr>
+        <th>Ryzen 7 5800x</th>
+    </tr>
+    <tr>
+        <th>Ryzen 9 3900x</th>
+    </tr>
+    <tr>
+        <th>Ryzen 9 5900x</th>
+    </tr>
+    <tr>
+        <th>Ryzen 5 7600x</th>
+        <th rowspan="3">B-650, X-670</th>
+    </tr>
+    <tr>
+        <th>Ryzen 7 7800x</th>
+    </tr>
+    <tr>
+        <th>Ryzen 9 7900x</th>
+    </tr>
+</table>
+<h3>Vale ressaltar que processadores mais potentes como Ryzen 7 e 9 e os Intel 7 e 9 vão funionar em placas mais simples porém é recomendado placas mais robustas como as "X" e as "Z"</h3>
+<!--Tabela com lista de processadores e placas mãe compativeis-->
+<br>
+
+<h2>Caso tenha gostado do conteúdo acima, pedimos que respoda a este pequeno questionário sobre seu computador:</h2>
+<form action="enviar.py">
+    <fieldset>
+        <legend>Dados</legend>
+    Nome:<br><input type="text" name="nome"><br>
+    Sobrenome:<br><input type="text" name="sobrenome"><br>
+    Data de nascimento:<br><input type="datetime-local" name="data de nascimento"><br>
+    Email:<br><input type="email" name="email"><br>
+    <legend>Marca do seu processador:</legend>
+    <input type="radio" name="Marca Processador" value="Intel"> Intel<br>
+    <input type="radio" name="Marca Processador" value="AMD"> AMD<br>
+    <legend>Sua placa de vídeo:</legend>
+    <select name="Placa de vídeo">
+        <option value="GTX 1060">GTX 1060</option>
+        <option value="GTX 1070">GTX 1070</option>
+        <option value="GTX 1080">GTX 1080</option>
+        <option value="RTX 2060">RTX 2060</option>
+        <option value="RTX 2070">RTX 2070</option>
+        <option value="RTX 2080">RTX 2080</option>
+        <option value="RTX 3060">RTX 3060</option>
+        <option value="RTX 3070">RTX 3070</option>
+        <option value="RTX 3080">RTX 3080</option>
+        <option value="RTX 3090">RTX 3090</option>    
+        <option value="RX 5500">RX 5500 XT</option>
+        <option value="RX 5600">RX 5600 XT</option>
+        <option value="RX 5700">RX 5700 XT</option>
+        <option value="RX 5800">RX 5800 XT</option>
+        <option value="RX 5900">RX 5900 XT</option>
+        <option value="RX 6600">RX 6600 XT</option>
+        <option value="RX 6700">RX 6700 XT</option>
+        <option value="RX 6800">RX 6800 XT</option>
+        <option value="RX 6900">RX 6900 XT</option>
+    </select>
+<br>    
+    <input type="submit" value="enviar">
+    <input type="reset" value="limpar">
+    </fieldset>    
+</form>  
+<!--Questionário sobre os dados e o computador do leitor-->
+<h2>Nos conte um pouco sobre sua experiência no nosso site:</h2>
+<form action="enviar.py">
+    <legend>Sua opinião:</legend>
+    <textarea name="Opinião" rows="20" cols="100"></textarea>
+</form>
+<!--Espaço para o leitor deixar sua opinião sobre o conteúdo do site-->
+
+</body>
+</html>
